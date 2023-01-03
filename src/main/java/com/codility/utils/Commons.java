@@ -1,4 +1,4 @@
-package main.java.com.codilityexercises.utils;
+package main.java.com.codility.utils;
 
 public class Commons {
 

@@ -1,4 +1,6 @@
-package main.java.com.codilityexercises.utils;
+package main.java.com.codility.exercises.bitwiseops;
+
+import main.java.com.codility.utils.Commons;
 
 import java.util.ArrayList;
 import java.util.Collections;
