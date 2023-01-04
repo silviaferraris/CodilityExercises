@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="531c6a6c-019c-46e6-8f30-79c7cd255c3a" name="Changes" comment="BinaryGap exercise">
+    <list default="true" id="531c6a6c-019c-46e6-8f30-79c7cd255c3a" name="Changes" comment="Addded CyclicRotation exercise from lesson 2">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/codility/exercises/bitwiseops/ConformityVerifier.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/codility/exercises/bitwiseops/CountConformingBitmasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codility/exercises/bitwiseops/SparseBinaryDecomposition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codility/lessons/arrays/CyclicRotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codility/lessons/iterations/BinaryGap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/codility/test/exercises/bitwiseops/BinaryGapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codility/lessons/arrays/OddOccurrencesInArray.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/codility/test/exercises/bitwiseops/CountConformingBitmasksTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/codility/test/lessons/arrays/CyclicRotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/codility/test/lessons/arrays/OddOccurrencesInArrayTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codilityexercises/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codility/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codilityexercises/utils/BinaryGap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codility/exercises/bitwiseops/BinaryGap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codilityexercises/utils/Commons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codility/utils/Commons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/codilityexercises/test/utils/BinaryGapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codility/test/lessons/iterations/BinaryGapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codility/utils/Commons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codility/utils/Commons.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +56,7 @@
       <recent name="main.java.com.codility.lessons.iterations" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CyclicRotationTest.rotateArrayTest">
+  <component name="RunManager" selected="JUnit.OddOccurrencesInArrayTest.findNotPairingElementTest">
     <configuration name="app" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="main.java.com.codility.app.Main" />
       <module name="CodilityExercises" />
@@ -118,30 +112,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryGapTest.numberOfZeros" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OddOccurrencesInArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodilityExercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.java.com.codilityexercises.test.utils.bitwiseops.*" />
+          <option name="PATTERN" value="test.java.com.codility.test.lessons.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.java.com.codilityexercises.test.utils" />
-      <option name="MAIN_CLASS_NAME" value="test.java.com.codilityexercises.test.utils.bitwiseops.BinaryGapTest" />
-      <option name="METHOD_NAME" value="numberOfZeros" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="test.java.com.codility.test.lessons.arrays" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.codility.test.lessons.arrays.OddOccurrencesInArrayTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OddOccurrencesInArrayTest.findNotPairingElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodilityExercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.codility.test.lessons.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.codility.test.lessons.arrays" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.codility.test.lessons.arrays.OddOccurrencesInArrayTest" />
+      <option name="METHOD_NAME" value="findNotPairingElementTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OddOccurrencesInArrayTest.findNotPairingElementTest" />
+        <item itemvalue="JUnit.OddOccurrencesInArrayTest" />
         <item itemvalue="JUnit.CyclicRotationTest.rotateArrayTest" />
         <item itemvalue="JUnit.CountConformingBitmasksTest.zerosInBinaryTest" />
         <item itemvalue="JUnit.CountConformingBitmasksTest.conformity" />
-        <item itemvalue="TestNG.BinaryGapTest.numberOfZeros" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672676574623</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Addded CyclicRotation exercise from lesson 2">
+      <created>1672767803388</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672767803388</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,30 +200,25 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="BinaryGap exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="BinaryGap exercise" />
+    <MESSAGE value="Addded CyclicRotation exercise from lesson 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addded CyclicRotation exercise from lesson 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/codility/exercises/bitwiseops/ConformityVerifier.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/codility/exercises/bitwiseops/ConformityVerifier.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/codility/test/exercises/bitwiseops/CountConformingBitmasksTest.java</url>
           <line>6</line>
-          <properties class="test.java.com.codilityexercises.test.utils.bitwiseops.CountConformingBitmasksTest" method="zerosInBinaryTest">
+          <properties class="test.java.com.codility.test.exercises.bitwiseops.CountConformingBitmasksTest" method="zerosInBinaryTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.ConcurrentModificationException" package="java.util" />
+          <option name="timeStamp" value="8" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
